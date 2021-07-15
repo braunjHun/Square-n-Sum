@@ -32,7 +32,10 @@ For example, for ```[1, 2, 2]``` it should ```return 9``` because ```1^2 + 2^2 +
     * Comment: 25 min was not enough to complete the plan
 1. Pomodoro session:
     * Plan: 
-        * 📃 check for possible refactoring
+        * ✔ check for possible refactoring
         * 📃 add next test case to test.js
         * 📃 cover second case
         * 📃 check for possible refactoring
+    * Commit log:
+
+    * Comment: 
