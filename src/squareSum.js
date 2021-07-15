@@ -1,12 +1,18 @@
 class SquareSum {
-    
-    squareSum(input) {
-        if (input.length == 2) {
-            return Math.pow(input[0],2) + Math.pow(input[1],2);
-        } else {
-            return Math.pow(input[0],2);
-        }
+    constructor() {
+
     }
+    calcSquare(number){
+        return Math.pow(number,2);
+    }
+    squareSum(inputNumbers) {
+        if (inputNumbers.length == 2) {
+            return this.calcSquare(inputNumbers[0]) + this.calcSquare(inputNumbers[1]);
+        } 
+        return this.calcSquare(inputNumbers[0]);
+    }
+
+
 }
   
 module.exports = {

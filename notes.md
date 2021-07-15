@@ -36,9 +36,18 @@ For example, for ```[1, 2, 2]``` it should ```return 9``` because ```1^2 + 2^2 +
         * ✔ check for possible refactoring
         * ✔ add next test case to test.js
         * ✔ cover second case
-        * 📃 check for possible refactoring
+        * 🚧 check for possible refactoring
     * Commit log:
         1. Refactor    
         1. RED
         1. GREEN
-    * Comment: 
+    * Comment: started to refactor, however I tried to solve this error "ReferenceError: calcSquare is not defined". I cannot understand this error, method was defined, everything seems ok... 😪😭😡💩 
+1. Pomodoro session:
+    * Plan:
+        * ✔ finish refactoring ("this." was the issue...)
+        * 📃 add next test case to test.js
+        * 📃 cover next test case
+        * 📃 check for possible refactoring
+    * Commit log:
+        1. Refactor 
+    * Comment:
