@@ -1,7 +1,11 @@
 class SquareSum {
     
     squareSum(input) {
-        return 4;
+        if (input.length == 2) {
+            return Math.pow(input[0],2) + Math.pow(input[1],2);
+        } else {
+            return Math.pow(input[0],2);
+        }
     }
 }
   
