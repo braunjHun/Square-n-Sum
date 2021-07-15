@@ -22,7 +22,7 @@ For example, for ```[1, 2, 2]``` it should ```return 9``` because ```1^2 + 2^2 +
     * Plan:  
         * ✔ plan first pomodoro activities
         * ✔ Create note.md and add general information 
-        * 📃 create test.js and write first test case
+        * ✔ create test.js and write first test case
         * 📃 cover the first test case with implementation
         * 📃 check for possible refactoring
         * 📃 add next test case to test.js
@@ -30,4 +30,5 @@ For example, for ```[1, 2, 2]``` it should ```return 9``` because ```1^2 + 2^2 +
         * 📃 check for possible refactoring
     * Commit log:
         1. commit note.md and first Pomodoro plan
+        1. RED
     * Comment: 
