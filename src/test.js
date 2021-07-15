@@ -8,4 +8,8 @@ describe('Test Square(n) Sum functions', () => {
       const squareSum = new SquareSum();
       expect(squareSum.squareSum([1,2])).toBe(5);
     });
+    it('1 square + 2 square + 2 square = 9', () => {
+      const squareSum = new SquareSum();
+      expect(squareSum.squareSum([1,2,2])).toBe(9);
+    });
   });
