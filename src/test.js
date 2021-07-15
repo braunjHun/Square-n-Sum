@@ -4,4 +4,8 @@ describe('Test Square(n) Sum functions', () => {
       const squareSum = new SquareSum();
       expect(squareSum.squareSum([2])).toBe(4);
     });
+    it('1 square + 2 square = 5', () => {
+      const squareSum = new SquareSum();
+      expect(squareSum.squareSum([1,2])).toBe(5);
+    });
   });
