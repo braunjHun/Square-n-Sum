@@ -46,9 +46,10 @@ For example, for ```[1, 2, 2]``` it should ```return 9``` because ```1^2 + 2^2 +
     * Plan:
         * ✔ finish refactoring ("this." was the issue...)
         * ✔ add next test case to test.js
-        * 📃 cover next test case
+        * ✔ cover next test case
         * 📃 check for possible refactoring
     * Commit log:
         1. Refactor 
         1. RED
+        1. GREEN
     * Comment:

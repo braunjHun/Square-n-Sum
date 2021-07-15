@@ -6,10 +6,11 @@ class SquareSum {
         return Math.pow(number,2);
     }
     squareSum(inputNumbers) {
-        if (inputNumbers.length == 2) {
-            return this.calcSquare(inputNumbers[0]) + this.calcSquare(inputNumbers[1]);
-        } 
-        return this.calcSquare(inputNumbers[0]);
+        let sum = 0;
+        for (let i=0;i<inputNumbers.length;i++){
+          sum += this.calcSquare(inputNumbers[i]);
+        }
+        return sum;
     }
 
 
